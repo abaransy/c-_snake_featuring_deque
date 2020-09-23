@@ -53,7 +53,6 @@ public:
     bool invalidPosition(int i, int j) {
         //check boundary
         return (i >= grid.size() || i < 0 || j >= grid[i].size() || j < 0);
-        
     }
     
     bool didEatSelf(int i, int j, int xTail, int yTail) {
